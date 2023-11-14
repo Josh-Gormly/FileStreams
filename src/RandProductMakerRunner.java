@@ -1,2 +1,8 @@
-package PACKAGE_NAME;public class RandProductMakerRunner {
+public class RandProductMakerRunner
+{
+    public static void main(String[] args)
+    {
+        RandProductMakerFrame frame = new RandProductMakerFrame();
+        frame.setVisible(true);
+    }
 }
